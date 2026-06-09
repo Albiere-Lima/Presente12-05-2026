@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-<<<<<<< HEAD
 
 
 const myPhotos: string[] = [
@@ -11,20 +10,11 @@ const myPhotos: string[] = [
 ];
 
 
-=======
-const myPhotos = [
-    'https://placehold.co/600x400/ff4d4d/ffffff?text=Nossa+Primeira+Foto',
-    'https://placehold.co/600x400/ff758c/ffffff?text=Aquele+Dia+Especial',
-    'https://placehold.co/600x400/ff7eb3/ffffff?text=Eu+e+Você'
-];
-
->>>>>>> 4362840ec81a77e69e3a917faee56cfc24af2b36
 export function RomanticScreen() {
     const [currentPhoto, setCurrentPhoto] = useState(0);
     const [showContent, setShowContent] = useState(false);
 
     useEffect(() => {
-<<<<<<< HEAD
         document.title = "Feliz Dia dos Namorados <3";
 
         const timer = setTimeout(() => setShowContent(true), 1000);
@@ -83,63 +73,6 @@ export function RomanticScreen() {
         </>
     );
 }
-=======
-
-    document.title = "Feliz Dia dos Namorados <3";
-
-    const timer = setTimeout(() => setShowContent(true), 1000);
-    return () => clearTimeout(timer);
-
-
-    }, []);
-
-    const nextPhoto = () => {
-    setCurrentPhoto((prev) => (prev + 1) % myPhotos.length);
-    };
-
-    const prevPhoto = () => {
-    setCurrentPhoto((prev) => (prev === 0 ? myPhotos.length - 1 : prev - 1));
-    };
-
-    return (
-        <>
-        <div style={{ ...styles.container, opacity: showContent ? 1 : 0 }}>
-
-        Sistema Desbloqueado 🔓❤️
-
-        <p style={styles.message}>
-        Camily, o "Desconhecido" aqui na verdade só queria uma desculpa diferente 
-        para te surpreender. Você desvendou todos os enigmas, mas a verdade é que 
-        você é a única pessoa que tem a senha para o meu coração.
-        </p>
-        
-        <p style={styles.highlightText}>
-        Feliz Dia dos Namorados!
-        </p>
-
-        {
-
-        }
-        <div style={styles.carouselContainer}>
-        <img
-            src={myPhotos[currentPhoto]}
-            alt={`Lembrança ${currentPhoto + 1}`}
-            style={styles.image}
-        />
-        
-        <div style={styles.carouselControls}>
-            <button onClick={prevPhoto} style={styles.button}>◀</button>
-            <span style={styles.counter}>
-            {currentPhoto + 1} / {myPhotos.length}
-            </span>
-            <button onClick={nextPhoto} style={styles.button}>▶</button>
-        </div>
-        </div>
-    </div>
-    </>
-    );
-    }
->>>>>>> 4362840ec81a77e69e3a917faee56cfc24af2b36
 
 const styles: { [key: string]: React.CSSProperties } = {
     container: {
@@ -152,7 +85,6 @@ const styles: { [key: string]: React.CSSProperties } = {
         padding: '20px',
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
     },
-<<<<<<< HEAD
 
     title12: {
         color: '#e0245e',
@@ -165,8 +97,6 @@ const styles: { [key: string]: React.CSSProperties } = {
     },
 
 
-=======
->>>>>>> 4362840ec81a77e69e3a917faee56cfc24af2b36
     card: {
         backgroundColor: 'rgba(255, 255, 255, 0.95)',
         padding: '40px 20px',
@@ -187,7 +117,6 @@ const styles: { [key: string]: React.CSSProperties } = {
         fontSize: '16px',
         lineHeight: '1.6',
         marginBottom: '15px',
-<<<<<<< HEAD
         width: '69%',
         position: "absolute",
         left: "7vh"
@@ -212,20 +141,6 @@ const styles: { [key: string]: React.CSSProperties } = {
         left: '80%',
         transform: 'translateX(-50%)',
 
-=======
-    },
-    highlightText: {
-        color: '#e0245e',
-        fontSize: '22px',
-        fontWeight: 'bold',
-        margin: '25px 0',
-    },
-    carouselContainer: {
-        marginTop: '30px',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
->>>>>>> 4362840ec81a77e69e3a917faee56cfc24af2b36
     },
     image: {
         width: '100%',
