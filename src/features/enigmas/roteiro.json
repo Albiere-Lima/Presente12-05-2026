@@ -1,0 +1,64 @@
+{
+    "roteiro": [
+        { "id": 1, "sender": "bot", "text": "Iniciando protocolo de segurança...", "delay": 1000 },
+        { "id": 2, "sender": "bot", "text": "Olá, Camily. O sistema foi interceptado.", "delay": 2000 },
+        { "id": 3, "sender": "bot", "text": "Eu tenho um arquivo muito importante sobre o Albiere, mas preciso confirmar sua identidade.", "delay": 3000 },
+        { 
+            "id": 4, 
+            "sender": "bot", 
+            "text": "Qual é o código de acesso do veículo dele?", 
+            "delay": 1500, 
+            "isEnigma": true, 
+            "expectedAnswers": ["jet125", "jet 125", "shineray"], 
+            "errorReply": "Acesso negado. Essa não é a senha correta." 
+        },
+        { 
+            "id": 5, 
+            "sender": "bot", 
+            "text": "Quantos anos vocês vão fazer de namoro?", 
+            "delay": 2000, 
+            "isEnigma": true, 
+            "expectedAnswers": ["tres", "três", "3", "3 anos", "3 anos de namoro", "três anos de namoro", "tres anos de namoro", "três anos", "tres anos"], 
+            "errorReply": "Acesso negado. Essa não é a senha correta." 
+        },
+        { 
+            "id": 6, 
+            "sender": "bot", 
+            "text": "Onde vocês iniciaram o namoro?", 
+            "delay": 2000, 
+            "isEnigma": true, 
+            "expectedAnswers": ["na minha casa", "casa da minha mãe", "casa da minha mae", "na casa da minha mãe", "na casa da minha mae", "em casa"],
+            "errorReply": "Acesso negado. Essa não é a senha correta." 
+        },
+
+        { 
+            "id": 7, 
+            "sender": "bot", 
+            "text": "Qual é o nickname dele?", 
+            "delay": 2000, 
+            "isEnigma": true, 
+            "expectedAnswers": ["FakezinLR", "Fakezin", "Fakezin LR", "fakezin", "fakezinlr", "fakezin lr"], 
+            "errorReply": "Acesso negado. Essa não é a senha correta." 
+        },
+        {
+            "id": 8, 
+            "sender": "bot", 
+            "text": "Qual é a marca do telefone dele?", 
+            "delay": 2000, 
+            "isEnigma": true, 
+            "expectedAnswers": ["Xiaomi", "xiaomi", "redmi", "Redmi"], 
+            "errorReply": "Acesso negado. Essa não é a senha correta." 
+        },
+        { 
+            "id": 9, 
+            "sender": "bot", 
+            "text": "Qual é a marca do notebook dele?", 
+            "delay": 2000, 
+            "isEnigma": true, 
+            "expectedAnswers": ["dell", "Dell"], 
+            "errorReply": "Acesso negado. Essa não é a senha correta." 
+        },
+        { "id": 10, "sender": "bot", "text": "Identidade confirmada. Descriptografando a surpresa...", "delay": 2000 }
+    
+    ]
+}
