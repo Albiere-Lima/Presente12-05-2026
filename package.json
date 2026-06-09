@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "path": "^0.12.7",
+=======
+>>>>>>> 4362840ec81a77e69e3a917faee56cfc24af2b36
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },
@@ -19,7 +22,11 @@
     "@eslint/js": "^10.0.1",
     "@rolldown/plugin-babel": "^0.2.3",
     "@types/babel__core": "^7.20.5",
+<<<<<<< HEAD
     "@types/node": "^24.13.1",
+=======
+    "@types/node": "^24.12.3",
+>>>>>>> 4362840ec81a77e69e3a917faee56cfc24af2b36
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
@@ -27,10 +34,14 @@
     "eslint": "^10.3.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
+<<<<<<< HEAD
     "fs": "^0.0.1-security",
     "gh-pages": "^6.3.0",
     "globals": "^17.6.0",
     "node": "^26.3.0",
+=======
+    "globals": "^17.6.0",
+>>>>>>> 4362840ec81a77e69e3a917faee56cfc24af2b36
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
     "vite": "^8.0.12"

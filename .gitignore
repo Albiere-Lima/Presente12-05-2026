@@ -22,7 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
 public/fotos/1.jpg
 public/fotos/2.jpg
 public/fotos/3.jpg
 public/fotos/4.jpg
+=======
+>>>>>>> 4362840ec81a77e69e3a917faee56cfc24af2b36
